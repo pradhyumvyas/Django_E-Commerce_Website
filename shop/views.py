@@ -5,7 +5,9 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, 'shop/index.html')
+    return render(request, 'shop/index.html', {
+
+    })
 
 def about(request):
     return HttpResponse("About Us Page")
