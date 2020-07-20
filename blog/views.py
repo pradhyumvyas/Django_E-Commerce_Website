@@ -6,3 +6,6 @@ from django.shortcuts import render
 def index(request):
     return render(request, 'blog/index.html')
 
+def blogHome(request):
+    return HttpResponse("In blog home")
+
